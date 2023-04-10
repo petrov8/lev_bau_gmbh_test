@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    {% load static %}
+
+    <!-- ***** Header Area Start ***** -->
+        {% include "sections/head_and_footer/headers.html" %}
+    <!-- ***** Header Area End ***** -->
+    
+        <body>
+
+                <!-- ***** Preloader Start ***** -->
+                    {% include 'sections/preloader/preloader.html' %}
+                <!-- ***** Preloader End ***** -->
+
+
+                <!-- ***** Header Area Start ***** -->
+                    {% include 'sections/nav/navigation.html' %}
+                <!-- ***** Header Area End ***** -->
+
+
+                <!-- ***** Main Banner Area Start ***** -->
+                    {% include 'sections/main/main.html' %}
+                <!-- ***** Main Banner Area End ***** -->
+
+                <!-- ***** About Area Starts ***** -->
+                    {% include 'sections/about/about.html' %}
+                <!-- ***** About Area Ends ***** -->
+
+
+                <!-- ***** Features Big Item Start ***** -->
+                    {% include 'sections/about/features.html' %}
+                <!-- ***** Features Big Item End ***** -->
+
+
+                <!-- ***** Gallery Starts ***** -->
+                    {% include 'sections/gallery/gallery.html' %}
+                <!-- ***** Gallery Ends ***** -->
+
+
+                <!-- ***** Contact Us Area Starts ***** -->
+                    {% include 'sections/contact_form/contact.html' %}
+                <!-- ***** Contact Us Area Ends ***** -->
+
+
+                <!-- ***** Footer. Bootstrap, Plugins, Global Init Start ***** -->
+                    {% include 'sections/head_and_footer/footer.html' %}
+                <!-- ***** Footer. Bootstrap, Plugins, Global Init End ***** -->
+
+        </body>
+
+</html>

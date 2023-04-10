@@ -1,0 +1,44 @@
+
+{% load static %}
+
+
+
+    <header class="header-area header-sticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+
+                            <!-- ***** Logo Start ***** -->
+                            <a href="{% url 'home' %}" class="logo">
+                                Lev-Bau GmbH
+                            </a>
+                            <!-- ***** Logo End ***** -->
+
+
+                            <!-- ***** Menu Start ***** -->
+                            <ul class="nav">
+                                <li class="scroll-to-section"><a href="{% url 'home' %}" class="active">Home</a></li>
+                                <li class="scroll-to-section"><a href="#testimonials">Galerie</a></li>
+                                <li class="scroll-to-section"><a href="#features">Dienste</a></li>
+{#                                <li class="submenu">#}
+{#                                    <a href="#features">Dienste</a>#}
+{#                                    <ul>#}
+{#                                        <li><a href="">Drywall</a></li>#}
+{#                                        <li><a href="">Acoustic</a></li>#}
+{#                                        <li><a href="">Painting</a></li>#}
+{#                                    </ul>#}
+{#                                </li>#}
+                                <li class="scroll-to-section"><a href="#about">Über uns</a></li>
+                                <li class="scroll-to-section"><a href="#contact-us">Kontakt</a></li>
+                                <li class="scroll-to-section"><a href="#">Datenschutz</a></li>
+                            </ul>
+                            <a class='menu-trigger'>
+                                <span>Menu</span>
+                            </a>
+                            <!-- ***** Menu End ***** -->
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
